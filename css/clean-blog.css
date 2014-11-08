@@ -343,7 +343,8 @@ form .row:first-child .floating-label-form-group {
   margin: 20px 0 0;
 }
 .pager li > a,
-.pager li > span {
+.pager li > span,
+.btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
@@ -355,13 +356,16 @@ form .row:first-child .floating-label-form-group {
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
-  .pager li > span {
+  .pager li > span,
+  .btn  {
     font-size: 14px;
     padding: 15px 25px;
   }
 }
 .pager li > a:hover,
-.pager li > a:focus {
+.pager li > a:focus,
+.btn:hover,
+.btn:focus{
   color: white;
   background-color: #0085a1;
   border: 1px solid #0085a1;
@@ -369,7 +373,8 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
-.pager .disabled > span {
+.pager .disabled > span,
+.btn .disabled {
   color: #808080;
   background-color: #404040;
   cursor: not-allowed;
