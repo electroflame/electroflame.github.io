@@ -3,10 +3,10 @@ title: electroflame's place
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+url: "http://electroflame.github.io"
+twitter_username: electroflame_X
+github_username:  electroflame
+# facebook_username:  IronSummitMedia
 
 # Build settings
 markdown: kramdown
