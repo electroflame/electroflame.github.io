@@ -403,4 +403,8 @@ body {
 
 /*Changes*/
 .btn a { border: 1px solid #DDD !important; }
-.no-left-padding { padding-left: 0px !important; }
+.no-left-or-right-padding { padding-left: 0px !important; padding-right: 0px !important; }
+.navbar-custom.is-fixed {
+    background-color: rgba(200, 200, 200, 0.9);
+    border-bottom: 1px solid #AAA;
+}
