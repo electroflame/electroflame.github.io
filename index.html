@@ -22,7 +22,7 @@ header-img: "img/home-bg.jpg"
 		<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
 	</div>
 	
-    <p class="post-meta">Posted by {{ site.owner }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Posted by <a href="{{site.owner_about_page_name | prepend: site.baseurl}}">{{ site.owner }}</a> on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
 {% endfor %}
