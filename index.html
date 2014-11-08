@@ -18,7 +18,9 @@ header-img: "img/home-bg.jpg"
     </a>
 	
 		{{ post.excerpt }} 
-	<a class="btn" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+	<div class="btn">
+		<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+	</div>
 	
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
