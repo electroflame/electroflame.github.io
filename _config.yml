@@ -4,8 +4,9 @@ email: your-email@yourdomain.com
 description: "The place where all of my stuff goes."
 baseurl: "http://electroflame.github.io"
 url: "http://electroflame.github.io"
-twitter_username: electroflame_X
+twitter_username: electroflame_
 github_username:  electroflame
+steam_username:  electroflame
 # facebook_username:  IronSummitMedia
 
 # Build settings
