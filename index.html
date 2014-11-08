@@ -16,11 +16,11 @@ header-img: "img/home-bg.jpg"
         </h3>		
         {% endif %}
     </a>
-	<div class="row">
-			{{ post.excerpt }}
-	</div>	
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}
-	<a href="{{ post.url | prepend: site.baseurl }}" style="text-align: right">Read more</a></p>
+	
+		{{ post.excerpt }} 
+	<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+	
+    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
 {% endfor %}
