@@ -18,9 +18,9 @@ header-img: "img/home-bg.jpg"
     </a>
 	<div class="row">
 			{{ post.excerpt }}
-	</div>
-	<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+	</div>	
+    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}
+	<a href="{{ post.url | prepend: site.baseurl }}" style="text-align: right">Read more</a></p>
 </div>
 <hr>
 {% endfor %}
