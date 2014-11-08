@@ -344,7 +344,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span,
-.btn {
+.btn a {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
