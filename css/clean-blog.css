@@ -403,3 +403,4 @@ body {
 
 /*Changes*/
 .btn a { border: 1px solid #DDD !important; }
+.no-left-padding { padding-left: 0px !important; }
