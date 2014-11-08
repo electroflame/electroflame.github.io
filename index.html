@@ -19,7 +19,7 @@ header-img: "img/home-bg.jpg"
 	
 		{{ post.excerpt }} 
 	<div class="no-left-or-right-padding btn">
-		<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+		<a href="{{ post.url | prepend: site.baseurl }} data-toggle="tooltip" data-placement="top" title="{{post.title}}"">Read more</a>
 	</div>
 	
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
