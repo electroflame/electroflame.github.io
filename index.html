@@ -13,12 +13,13 @@ header-img: "img/home-bg.jpg"
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
-        </h3>
-		<div class="row">
-			{{ post.excerpt }}
-		</div>
+        </h3>		
         {% endif %}
     </a>
+	<div class="row">
+			{{ post.excerpt }}
+	</div>
+	<a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
     <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
