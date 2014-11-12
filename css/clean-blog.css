@@ -408,3 +408,8 @@ body {
     background-color: rgba(200, 200, 200, 0.9);
     border-bottom: 1px solid #AAA;
 }
+
+.codeDirection {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
